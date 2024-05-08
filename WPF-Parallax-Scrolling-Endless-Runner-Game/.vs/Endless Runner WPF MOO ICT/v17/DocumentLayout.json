@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Desktop\\Test\\WPF-Parallax-Scrolling-Endless-Runner-Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{254D3C79-17AF-413F-9182-9B5BDAEB1B03}|Endless Runner WPF MOO ICT\\Endless Runner WPF MOO ICT.csproj|D:\\Desktop\\Test\\WPF-Parallax-Scrolling-Endless-Runner-Game\\endless runner wpf moo ict\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{254D3C79-17AF-413F-9182-9B5BDAEB1B03}|Endless Runner WPF MOO ICT\\Endless Runner WPF MOO ICT.csproj|solutionrelative:endless runner wpf moo ict\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254D3C79-17AF-413F-9182-9B5BDAEB1B03}|Endless Runner WPF MOO ICT\\Endless Runner WPF MOO ICT.csproj|d:\\desktop\\test\\wpf-parallax-scrolling-endless-runner-game\\endless runner wpf moo ict\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254D3C79-17AF-413F-9182-9B5BDAEB1B03}|Endless Runner WPF MOO ICT\\Endless Runner WPF MOO ICT.csproj|solutionrelative:endless runner wpf moo ict\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254D3C79-17AF-413F-9182-9B5BDAEB1B03}|Endless Runner WPF MOO ICT\\Endless Runner WPF MOO ICT.csproj|D:\\Desktop\\Test\\WPF-Parallax-Scrolling-Endless-Runner-Game\\endless runner wpf moo ict\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{254D3C79-17AF-413F-9182-9B5BDAEB1B03}|Endless Runner WPF MOO ICT\\Endless Runner WPF MOO ICT.csproj|solutionrelative:endless runner wpf moo ict\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254D3C79-17AF-413F-9182-9B5BDAEB1B03}|Endless Runner WPF MOO ICT\\Endless Runner WPF MOO ICT.csproj|D:\\Desktop\\Test\\WPF-Parallax-Scrolling-Endless-Runner-Game\\endless runner wpf moo ict\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{254D3C79-17AF-413F-9182-9B5BDAEB1B03}|Endless Runner WPF MOO ICT\\Endless Runner WPF MOO ICT.csproj|solutionrelative:endless runner wpf moo ict\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Desktop\\Test\\WPF-Parallax-Scrolling-Endless-Runner-Game\\Endless Runner WPF MOO ICT\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Endless Runner WPF MOO ICT\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Desktop\\Test\\WPF-Parallax-Scrolling-Endless-Runner-Game\\Endless Runner WPF MOO ICT\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Endless Runner WPF MOO ICT\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T09:39:11.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Desktop\\Test\\WPF-Parallax-Scrolling-Endless-Runner-Game\\Endless Runner WPF MOO ICT\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Endless Runner WPF MOO ICT\\MainWindow.xaml",
+              "ToolTip": "D:\\Desktop\\Test\\WPF-Parallax-Scrolling-Endless-Runner-Game\\Endless Runner WPF MOO ICT\\MainWindow.xaml",
+              "RelativeToolTip": "Endless Runner WPF MOO ICT\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-01T09:39:10.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Desktop\\Test\\WPF-Parallax-Scrolling-Endless-Runner-Game\\Endless Runner WPF MOO ICT\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Endless Runner WPF MOO ICT\\App.xaml.cs",
+              "ToolTip": "D:\\Desktop\\Test\\WPF-Parallax-Scrolling-Endless-Runner-Game\\Endless Runner WPF MOO ICT\\App.xaml.cs",
+              "RelativeToolTip": "Endless Runner WPF MOO ICT\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T09:39:05.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Desktop\\Test\\WPF-Parallax-Scrolling-Endless-Runner-Game\\Endless Runner WPF MOO ICT\\App.xaml",
+              "RelativeDocumentMoniker": "Endless Runner WPF MOO ICT\\App.xaml",
+              "ToolTip": "D:\\Desktop\\Test\\WPF-Parallax-Scrolling-Endless-Runner-Game\\Endless Runner WPF MOO ICT\\App.xaml",
+              "RelativeToolTip": "Endless Runner WPF MOO ICT\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-01T09:38:59.334Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

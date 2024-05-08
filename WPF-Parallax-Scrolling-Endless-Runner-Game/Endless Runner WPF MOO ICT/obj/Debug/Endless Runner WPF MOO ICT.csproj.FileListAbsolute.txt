@@ -1,0 +1,45 @@
+C:\Users\MOOICT\Documents\Visual Studio 2019\Projects\Endless Runner WPF MOO ICT\Endless Runner WPF MOO ICT\bin\Debug\Endless Runner WPF MOO ICT.exe.config
+C:\Users\MOOICT\Documents\Visual Studio 2019\Projects\Endless Runner WPF MOO ICT\Endless Runner WPF MOO ICT\bin\Debug\Endless Runner WPF MOO ICT.exe
+C:\Users\MOOICT\Documents\Visual Studio 2019\Projects\Endless Runner WPF MOO ICT\Endless Runner WPF MOO ICT\bin\Debug\Endless Runner WPF MOO ICT.pdb
+C:\Users\MOOICT\Documents\Visual Studio 2019\Projects\Endless Runner WPF MOO ICT\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.csprojAssemblyReference.cache
+C:\Users\MOOICT\Documents\Visual Studio 2019\Projects\Endless Runner WPF MOO ICT\Endless Runner WPF MOO ICT\obj\Debug\MainWindow.g.cs
+C:\Users\MOOICT\Documents\Visual Studio 2019\Projects\Endless Runner WPF MOO ICT\Endless Runner WPF MOO ICT\obj\Debug\App.g.cs
+C:\Users\MOOICT\Documents\Visual Studio 2019\Projects\Endless Runner WPF MOO ICT\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT_MarkupCompile.cache
+C:\Users\MOOICT\Documents\Visual Studio 2019\Projects\Endless Runner WPF MOO ICT\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT_MarkupCompile.lref
+C:\Users\MOOICT\Documents\Visual Studio 2019\Projects\Endless Runner WPF MOO ICT\Endless Runner WPF MOO ICT\obj\Debug\MainWindow.baml
+C:\Users\MOOICT\Documents\Visual Studio 2019\Projects\Endless Runner WPF MOO ICT\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.g.resources
+C:\Users\MOOICT\Documents\Visual Studio 2019\Projects\Endless Runner WPF MOO ICT\Endless Runner WPF MOO ICT\obj\Debug\Endless_Runner_WPF_MOO_ICT.Properties.Resources.resources
+C:\Users\MOOICT\Documents\Visual Studio 2019\Projects\Endless Runner WPF MOO ICT\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.csproj.GenerateResource.cache
+C:\Users\MOOICT\Documents\Visual Studio 2019\Projects\Endless Runner WPF MOO ICT\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.csproj.CoreCompileInputs.cache
+C:\Users\MOOICT\Documents\Visual Studio 2019\Projects\Endless Runner WPF MOO ICT\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.exe
+C:\Users\MOOICT\Documents\Visual Studio 2019\Projects\Endless Runner WPF MOO ICT\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.pdb
+D:\Desktop\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\bin\Debug\Endless Runner WPF MOO ICT.exe.config
+D:\Desktop\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\bin\Debug\Endless Runner WPF MOO ICT.exe
+D:\Desktop\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\bin\Debug\Endless Runner WPF MOO ICT.pdb
+D:\Desktop\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.csproj.AssemblyReference.cache
+D:\Desktop\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\MainWindow.g.cs
+D:\Desktop\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\App.g.cs
+D:\Desktop\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT_MarkupCompile.cache
+D:\Desktop\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT_MarkupCompile.lref
+D:\Desktop\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\MainWindow.baml
+D:\Desktop\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.g.resources
+D:\Desktop\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless_Runner_WPF_MOO_ICT.Properties.Resources.resources
+D:\Desktop\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.csproj.GenerateResource.cache
+D:\Desktop\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.csproj.CoreCompileInputs.cache
+D:\Desktop\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.exe
+D:\Desktop\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.pdb
+D:\Desktop\Test\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\bin\Debug\Endless Runner WPF MOO ICT.exe.config
+D:\Desktop\Test\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\bin\Debug\Endless Runner WPF MOO ICT.exe
+D:\Desktop\Test\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\bin\Debug\Endless Runner WPF MOO ICT.pdb
+D:\Desktop\Test\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.csproj.AssemblyReference.cache
+D:\Desktop\Test\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\MainWindow.g.cs
+D:\Desktop\Test\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\App.g.cs
+D:\Desktop\Test\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT_MarkupCompile.cache
+D:\Desktop\Test\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT_MarkupCompile.lref
+D:\Desktop\Test\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\MainWindow.baml
+D:\Desktop\Test\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.g.resources
+D:\Desktop\Test\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless_Runner_WPF_MOO_ICT.Properties.Resources.resources
+D:\Desktop\Test\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.csproj.GenerateResource.cache
+D:\Desktop\Test\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.csproj.CoreCompileInputs.cache
+D:\Desktop\Test\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.exe
+D:\Desktop\Test\WPF-Parallax-Scrolling-Endless-Runner-Game\Endless Runner WPF MOO ICT\obj\Debug\Endless Runner WPF MOO ICT.pdb

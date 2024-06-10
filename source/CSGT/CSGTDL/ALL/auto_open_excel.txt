@@ -1,0 +1,10 @@
+@echo off
+setlocal enabledelayedexpansion
+
+for %%f in (*.xls *xlsx) do (
+	start excel "%%f"
+	timeout /t 2 >nul
+	taskkill /f /im excel.exe >nul
+)
+
+endlocal

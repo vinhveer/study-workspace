@@ -1,0 +1,15 @@
+@echo off
+
+setlocal enabledelayedexpansion
+
+set /p suffix="Nhap hau to ban muon them vao ten tep: "
+
+for %%f in (*.xlsx) do (
+	set "filename=%%~nf"
+	set "extension=%%~xf"
+	ren "%%f" "!filename!!suffix!!extension!"
+)
+
+echo Đa doi xong!
+
+pause

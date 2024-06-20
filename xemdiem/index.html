@@ -1,0 +1,439 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0057)https://sinhvien.ntu.edu.vn/sinhvien/diem/xemketquahoctap -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>Kết quả học tập sinh viên :: Quản lý đào tạo  - TRƯỜNG ĐẠI HỌC NHA TRANG</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10">
+        <meta name="robots" content="index, follow">
+        <meta name="keywords" content="">
+        <meta name="description" content="CUSC">
+        <meta name="generator" content="CUSC - Can Tho University Softwave Center">
+        <meta http-equiv="cache-control" content="no-cache">
+		<link rel="stylesheet" type="text/css" href="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/template.css">
+        <link rel="stylesheet" type="text/css" href="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/jquery-ui-1.8.11.custom.css">
+        <link rel="stylesheet" type="text/css" href="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/datepicker.css">
+                <link rel="icon" type="image/png" href="https://sinhvien.ntu.edu.vn/templates/ntu/favicon.png">
+        <script type="text/javascript">
+    var textCmbc = '---- Vui lòng chọn ----';
+    var textCmba = '---- Tất cả ----';
+    var textSubmitNotSel = 'Vui lòng chọn dòng cần xử lý';
+    var textConfirmDel = 'Thực hiện xóa các dòng được chọn?';    
+    var textNotSearch = 'Không thể lọc thông tin do dữ liệu đã bị khóa.';    
+    //
+    var textPleSel = 'Vui lòng chọn';
+    var textAll = 'Tất cả';
+    var textDeDel = 'Bỏ chọn';
+    var textSel = 'Chọn';
+    var textConfLogout = 'Xác nhận thoát khỏi chương trình?';
+    var textErrInitialSem = 'Dữ liệu năm học - học kỳ chưa được khởi tạo.';
+    var miniumChar = 'Số ký tự tối thiểu là';
+    var quangan = 'Quá ngắn';
+    var trungbinh = 'Trung bình';
+    var weak = 'Yếu';
+    var veryweak = 'Rất yếu';
+    var strong = 'Mạnh';
+    var verystrong = 'Rất mạnh';
+    var notsafe = 'Mật khẩu không an toàn!';
+    
+    var textSTT = 'Stt';
+    var textThanhPhan = 'Thành phần';
+    var textSapXep = 'Sắp xếp';
+    var textDelete = 'Xóa';
+    
+    var textExists = 'Thành phần đã có trên danh sách';
+    
+    var hdLanguageSession = 'vn';
+    
+    var enterPassword = 'Vui lòng nhập mật khẩu';
+    
+    var minimumChar = 'Số ký tự tối thiểu của mật khẩu là 8';
+    var minimumChar5 = 'Số ký tự tối thiểu của mật khẩu là 5';
+    
+    var notMatchPass = 'Mật khẩu và Mật khẩu nhắc lại không khớp nhau';
+    
+    var changePassSuccess = 'Đổi mật khẩu thành công.';
+        
+    var reLoginpass = 'Có lỗi xảy ra! Vui lòng đăng nhập lại để thực hiện chức năng đổi mật khẩu.';
+    
+    var notfound = 'Không tìm thấy thông tin';
+    
+    var session_en = null;
+        
+</script>        <script type="text/javascript" language="javascript" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/jquery-1.6.2.min.js.download"></script>
+        <script type="text/javascript" language="javascript" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/jquery.ui.core.js.download"></script>
+        <script type="text/javascript" language="javascript" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/jquery.ui.widget.js.download"></script>
+        <script type="text/javascript" language="javascript" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/jquery.ui.mouse.js.download"></script>
+        <script type="text/javascript" language="javascript" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/jquery-ui-1.8.14.custom.min.js.download"></script>
+        <script type="text/javascript" language="javascript" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/jquery.ui.datepicker.js.download"></script>
+        <script type="text/javascript" language="javascript" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/jquery-ui-timepicker-addon.js.download"></script>
+        <script type="text/javascript" language="javascript" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/jquery.ui.draggable.js.download"></script>
+        <script type="text/javascript" language="javascript" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/jquery.cookie.js.download"></script>
+        <script type="text/javascript" language="javascript" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/jquery.fixedtableheader.min.js.download"></script>
+        <script type="text/javascript" language="javascript" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/jquery.pstrength-min.1.2.js.download"></script>
+        <script type="text/javascript" language="javascript" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/global.js.download"></script>
+        <script type="text/javascript" language="javascript" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/jquery.multiselect.min.js.download"></script>
+        
+    <script src="chrome-extension://ajdpfmkffanmkhejnopjppegokpogffp/assets/prompt.js"></script></head>
+    <body id="body">
+        
+    <div name="dlg_profile" id="dlg_profile" style="width:600px; margin-left:-300px;" class="fixed modal gradient_modal">
+        <table width="100%">
+            <tbody><tr>
+                <td class="left"><div class="bold white text-shadow lower_case" name="sp_profile_Title" id="sp_profile_Title">Thông tin người dùng</div></td>
+                <td class="right" width="20%"><span class="pointer bold white dlg_close right" onclick="hideModal(&quot;dlg_profile&quot;);" title="Nhấn ESC hoặc nhấn [x] để đóng">[X]</span></td>
+            </tr>
+        </tbody></table>
+        <div id="div_profile_content">
+            <div style="position:relative;max-height:400px;height: expression(this.scrollHeight &gt; 400 ? &#39;400px&#39; : &#39;auto&#39; );overflow:auto;background:#fff; padding:5px;">
+                <fieldset>
+                    <legend>Thông tin cá nhân</legend>
+                    <div id="profile"></div>
+                </fieldset>
+                <fieldset>
+                    <legend class="pointer changepass">Đổi mật khẩu</legend>
+                    <form id="changepassword">
+					<div align="center">
+						<a href="http://account.ntu.edu.vn/" target="blank"><b>Vui lòng nhấp vào đây để thực hiện đổi mật khẩu.</b></a>
+						</div>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+    </div>            <div id="divheader" style="display:block;">
+                <table id="header" class="mainbody" width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tbody><tr>
+                        <td>
+                            <a href="https://sinhvien.ntu.edu.vn/sinhvien" title="Trang chủ Quản lý">
+                                <div id="logo"></div>
+                            </a>
+                                                        <a href="https://sinhvien.ntu.edu.vn/sinhvien/diem/" title="Trang chủ Quản lý">
+                                <div id="info">Kết quả học tập sinh viên</div>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+            <div id="panel">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tbody><tr>
+                        <td>
+							Hệ: <span id="hoat_dong_dao_tao">Đại học và Cao đẳng chính quy</span>&nbsp; NH: <span id="nam_hoc">2023-2024</span>&nbsp; HK: <span id="hoc_ky">3</span>						</td>
+                        <td>
+                            <ul id="navigation">
+                                <li class="left">&nbsp;</li>
+                                                                <li><a href="http://www.ntu.edu.vn/" title="Website thông tin" target="_blank">Trang thông tin</a></li>
+                                                                <li>|</li>
+                                <li>Tài khoản <a href="javascript:showModalProfile(&#39;dlg_profile&#39;, &#39;https://sinhvien.ntu.edu.vn/ajax/showprofile&#39;,&#39;ntu&#39;,&#39;http://account.ntu.edu.vn&#39;)" style="text-decoration: underline">Nguyễn Phương Thanh Thảo</a>!</li>
+                                <li><a class="exit" href="javascript:void(0)" onclick="goToLogout(&#39;https://sinhvien.ntu.edu.vn/login/logout&#39;)" title="Thoát">Thoát</a></li>
+                                <li><a class="home" href="https://sinhvien.ntu.edu.vn/sinhvien" title="Trang Quản lý đào tạo">Trang chủ</a></li>
+								<li><a class="help_video" id="help_video1" href="https://sinhvien.ntu.edu.vn/help/videohelp.php?ph=svdiem&amp;dt=sinhvien" target="blank" title="Video hướng dẫn sử dụng" rel=""></a></li>								
+                                <li><a class="help" id="help" href="javascript:void(0);" title="Hướng dẫn sử dụng" rel="https://sinhvien.ntu.edu.vn/help/help.php?ph=svdiem&amp;dt=sinhvien">?</a></li>
+                            </ul>
+                        </td>    
+                        <td align="right" width="20">
+                            <span class="trigger active pointer" title="Ẩn/Hiện banner"></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+                <table class="mainbody" width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+            <tbody><tr>
+                <td valign="top" style="padding: 0px; height: 300px;">
+                    <link rel="stylesheet" type="text/css" href="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/dropdown.css">
+<script type="text/javascript" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/jquery.dropdown.js.download"></script><ul class="menu dropdown dropdown-horizontal" id="nav">
+<li class="none"><a style="white-space: nowrap;" href="https://sinhvien.ntu.edu.vn/sinhvien/diem/xemketquahoctap" title="Xem kết quả học tập" class="menulink">Xem kết quả học tập</a></li>
+<li class="none"><a style="white-space: nowrap;" href="https://sinhvien.ntu.edu.vn/sinhvien/diem/xemdiemnhomhp" title="Xem điểm nhóm học phần" class="menulink">Xem điểm nhóm học phần</a></li>
+<li class="none"><a style="white-space: nowrap;" href="https://sinhvien.ntu.edu.vn/sinhvien/diem/kqxetthitotnghiep" title="Kết quả xét thi tốt nghiệp" class="menulink">Kết quả xét thi tốt nghiệp</a></li>
+<li style="white-space: nowrap;" class="dir" title="Kết quả xét tốt nghiệp">Kết quả xét tốt nghiệp
+<ul style="visibility: hidden;">
+<li><a style="white-space: nowrap;" href="https://sinhvien.ntu.edu.vn/sinhvien/diem/danhsachsinhvientotnghiep" title="Danh sách sinh viên tốt nghiệp">Danh sách sinh viên tốt nghiệp</a></li>
+<li><a style="white-space: nowrap;" href="https://sinhvien.ntu.edu.vn/sinhvien/diem/danhsachsinhvienchuatotnghiep" title="Danh sách sinh viên chưa tốt nghiệp">Danh sách sinh viên chưa tốt nghiệp</a></li>
+</ul></li>
+</ul>
+<br class="cleared"><div name="dlg_frmLookup" id="dlg_frmLookup" style="width:750px; margin-left:-375px; z-index:9999" class="fixed modal gradient_modal">
+                <table width="100%">
+                    <tbody><tr>
+                        <td class="left"><div class="bold white text-shadow lower_case" name="sp_frmLookup_Title" id="sp_frmLookup_Title">Tìm kiếm thông tin</div></td>
+                        <td class="right" width="20%"><span class="pointer bold white dlg_close right" onclick="hideModal(&quot;dlg_frmLookup&quot;);" title="Nhấn ESC hoặc nhấn [x] để đóng">[X]</span></td>
+                    </tr>
+                </tbody></table><div id="div_frmLookup_content">
+                <table id="tb_msg_frmLookup" style="background-color:#FFFFFF;display:none" width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tbody><tr><td><div class="error" sub="ul_frmLookup">Thông báo lỗi<span>Ẩn/Hiện</span></div></td></tr>
+                    <tr><td><ul id="ul_frmLookup" class="error"></ul></td></tr>
+                </tbody></table>
+                <table id="tb_msg_frmLookup_success" style="background-color:#FFFFFF;display:none" width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tbody><tr><td><div class="success" sub="ul_frmLookup">Thông báo<span>Ẩn/Hiện</span></div></td></tr>
+                    <tr><td><ul id="ul_frmLookup_success" class="success"></ul></td></tr>
+                </tbody></table><form name="frm_frmLookup" id="frm_frmLookup" method="post" autocomplete="off">
+                <input type="hidden" name="h_frmLookup_id" id="h_frmLookup_id" value=""><div style="position:relative;max-height:520px;height: expression(this.scrollHeight &gt; 520 ? &#39;px&#39; : &#39;auto&#39; );overflow-x:none;overflow-y:auto "><table id="tb_frmLookup" name="tb_frmLookup" width="100%" class="soft fixheader">
+<tbody><tr>
+<td align="left" width="35%" colspan="4"><div id="tb_additional"></div></td>
+</tr>
+<tr>
+<td align="right" width="35%"><label name="lb_lookup_title" id="lb_lookup_title"></label></td>
+<td><input type="textbox" name="txt_lookup_value" id="txt_lookup_value" value="" maxlength="250" tabname="lookup">&nbsp;<input type="button" name="btnSearch" id="btnSearch" value="Tìm" onclick="getLookup();" tabsubmit="lookup"></td>
+</tr>
+<tr>
+<td align="left" width="35%" colspan="2"><fieldset id="fr_lookup"><legend>Danh sách kết quả</legend><div id="div_lookup"></div></fieldset></td>
+</tr>
+</tbody></table></div><table id="tb_tbs_frmLookup" name="tb_tbs_frmLookup" width="100%" class="soft fixheader">
+<tbody><tr style="display:none" id="tr_frmLookup_ext_notes">
+<td><span id="sp_frmLookup_ext_notes"></span></td>
+</tr>
+</tbody></table><input type="hidden" name="sskey" value="1718888061"></form></div></div>
+ <div name="dlg_chitietdiem" id="dlg_chitietdiem" style="width:750px; margin-left:-375px; " class="fixed modal gradient_modal">
+                <table width="100%">
+                    <tbody><tr>
+                        <td class="left"><div class="bold white text-shadow lower_case" name="sp_chitietdiem_Title" id="sp_chitietdiem_Title">Chi tiết điểm môn học</div></td>
+                        <td class="right" width="20%"><span class="pointer bold white dlg_close right" onclick="hideModal(&quot;dlg_chitietdiem&quot;);" title="Nhấn ESC hoặc nhấn [x] để đóng">[X]</span></td>
+                    </tr>
+                </tbody></table><div id="div_chitietdiem_content">
+                <table id="tb_msg_chitietdiem" style="background-color:#FFFFFF;display:none" width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tbody><tr><td><div class="error" sub="ul_chitietdiem">Thông báo lỗi<span>Ẩn/Hiện</span></div></td></tr>
+                    <tr><td><ul id="ul_chitietdiem" class="error"></ul></td></tr>
+                </tbody></table>
+                <table id="tb_msg_chitietdiem_success" style="background-color:#FFFFFF;display:none" width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                    <tbody><tr><td><div class="success" sub="ul_chitietdiem">Thông báo<span>Ẩn/Hiện</span></div></td></tr>
+                    <tr><td><ul id="ul_chitietdiem_success" class="success"></ul></td></tr>
+                </tbody></table><form name="frm_chitietdiem" id="frm_chitietdiem" method="post" autocomplete="off">
+                <input type="hidden" name="h_chitietdiem_id" id="h_chitietdiem_id" value=""><div style="position:relative;max-height:520px;height: expression(this.scrollHeight &gt; 520 ? &#39;px&#39; : &#39;auto&#39; );overflow-x:none;overflow-y:auto "><table id="tb_chitietdiem" name="tb_chitietdiem" width="100%" class="soft fixheader">
+<tbody><tr>
+<td align="left" width="35%" colspan="2"><fieldset><div id="chitiettrangthai"></div></fieldset></td>
+</tr>
+</tbody></table></div><table id="tb_tbs_chitietdiem" name="tb_tbs_chitietdiem" width="100%" class="soft fixheader">
+<tbody><tr style="display:none" id="tr_chitietdiem_ext_notes">
+<td><span id="sp_chitietdiem_ext_notes"></span></td>
+</tr>
+</tbody></table><input type="hidden" name="sskey" value="1718888061"></form></div></div><form id="frmMain" name="frmMain" method="post">
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="soft">
+                    <tbody><tr class="tkb_title01"><td class="center" width="100%"><h2 name="sp_kqht_Title" id="sp_kqht_Title">Kết quả học tập sinh viên</h2></td></tr>
+                    </tbody></table><table id="tb_kqht" name="tb_kqht" width="100%" class="soft">
+<tbody><tr>
+<td align="right" width="40%">Từ năm học - học kỳ</td>
+<td align="left"><select name="cmba_xemketquahoctap_nam_vao_min" id="cmba_xemketquahoctap_nam_vao_min"><option value="">---- Tất cả ----</option><option value="2024">2024-2025 (66)</option><option value="2023" selected="">2023-2024 (65)</option><option value="2022">2022-2023 (64)</option><option value="2021">2021-2022 (63)</option><option value="2020">2020-2021 (62)</option><option value="2019">2019-2020 (61)</option><option value="2018">2018-2019 (60)</option><option value="2017">2017-2018 (59)</option><option value="2016">2016-2017 (58)</option><option value="2015">2015-2016 (57)</option><option value="2014">2014-2015 (56)</option><option value="2013">2013-2014 (55)</option><option value="2012">2012-2013 (54)</option><option value="2011">2011-2012 (53)</option><option value="2010">2010-2011 (52)</option><option value="2009">2009-2010 (51)</option><option value="2008">2008-2009 (50)</option><option value="2007">2007-2008 (49)</option><option value="2006">2006-2007 (48)</option><option value="2005">2005-2006 (47)</option><option value="2004">2004-2005 (46)</option><option value="2003">2003-2004 (45)</option><option value="2002">2002-2003 (44)</option><option value="2001">2001-2002 (43)</option><option value="2000">2000-2001 (42)</option><option value="1999">1999-2000 (41)</option><option value="1998">1998-1999 (40)</option><option value="1997">1997-1998 (39)</option><option value="1996">1996-1997 (38)</option><option value="1995">1995-1996 (37)</option><option value="1994">1994-1995 (36)</option></select>&nbsp;-&nbsp;<select name="cmba_xemketquahoctap_hk_min" id="cmba_xemketquahoctap_hk_min" style="width:120px;"><option value="">---- Tất cả ----</option><option value="1">1</option><option value="2" selected="">2</option><option value="3">Hè</option></select></td>
+</tr>
+<tr>
+<td align="right" width="40%">Đến năm học - học kỳ</td>
+<td align="left"><select name="cmba_xemketquahoctap_nam_vao_max" id="cmba_xemketquahoctap_nam_vao_max"><option value="">---- Tất cả ----</option><option value="2024">2024-2025 (66)</option><option value="2023" selected="">2023-2024 (65)</option><option value="2022">2022-2023 (64)</option><option value="2021">2021-2022 (63)</option><option value="2020">2020-2021 (62)</option><option value="2019">2019-2020 (61)</option><option value="2018">2018-2019 (60)</option><option value="2017">2017-2018 (59)</option><option value="2016">2016-2017 (58)</option><option value="2015">2015-2016 (57)</option><option value="2014">2014-2015 (56)</option><option value="2013">2013-2014 (55)</option><option value="2012">2012-2013 (54)</option><option value="2011">2011-2012 (53)</option><option value="2010">2010-2011 (52)</option><option value="2009">2009-2010 (51)</option><option value="2008">2008-2009 (50)</option><option value="2007">2007-2008 (49)</option><option value="2006">2006-2007 (48)</option><option value="2005">2005-2006 (47)</option><option value="2004">2004-2005 (46)</option><option value="2003">2003-2004 (45)</option><option value="2002">2002-2003 (44)</option><option value="2001">2001-2002 (43)</option><option value="2000">2000-2001 (42)</option><option value="1999">1999-2000 (41)</option><option value="1998">1998-1999 (40)</option><option value="1997">1997-1998 (39)</option><option value="1996">1996-1997 (38)</option><option value="1995">1995-1996 (37)</option><option value="1994">1994-1995 (36)</option></select>&nbsp;-&nbsp;<select name="cmba_xemketquahoctap_hk_max" id="cmba_xemketquahoctap_hk_max" style="width:120px;"><option value="">---- Tất cả ----</option><option value="1">1</option><option value="2" selected="">2</option><option value="3">Hè</option></select></td>
+</tr>
+<tr>
+<td align="center" colspan="2"><input type="button" name="btnSave" id="btnSave" value="Xem" onclick="xem()"> <input type="button" name="btnPrintFull" id="btnPrint" value="In" onclick="print()"></td>
+</tr>
+<tr style="display:none" id="tr_kqht_ext_notes">
+<td><span id="sp_kqht_ext_notes"></span></td>
+</tr>
+</tbody></table><fieldset><legend><h2>Học kỳ: 2 - Năm học: 2023 - 2024</h2></legend><div class="divp-list" style="overflow:auto" id="divp_xemketquahoctap_0"><table id="tb_xemketquahoctap_0" style="border-collapse: collapse;" name="tb_xemketquahoctap_0" width="100%" border="1" class="table-list fixheader">
+<thead>
+<tr><th rowspan="2" align="center" style="width: 55.6667px;">Stt</th><th rowspan="2" align="center" style="width: 166.667px;">Mã HP</th><th rowspan="2" align="center" style="width: 350.667px;">Tên học phần</th><th rowspan="2" align="center" style="width: 80.6667px;">Nhóm</th><th rowspan="2" align="center" style="width: 80.6667px;">ĐVHT</th><th colspan="2" align="center" style="width: 166.667px;">Điểm HP hệ 10</th><th colspan="2" align="center" style="width: 166.667px;">Điểm HP hệ 4</th><th rowspan="2" align="center" style="width: 55.6667px;">N</th><th rowspan="2" align="center" style="width: 55.6667px;">Chi tiết</th></tr>
+<tr class="alt"><th align="center" style="width: 80.6667px;">Lần 1</th><th align="center" style="width: 80.6667px;">Lần 2</th><th align="center" style="width: 80.6667px;">Lần 1</th><th align="center" style="width: 80.6667px;">Lần 2</th></tr>
+</thead><tbody><tr>
+<th align="center" width="5%" class="">1</th>
+<td align="left" width="14%" class="">85097</td>
+<td align="left" class="">Giáo dục thể chất (Bóng đá)</td>
+<td align="center" width="7%" class="">12</td>
+<td align="center" width="7%" class="">1</td>
+<td align="center" width="7%" class="">9.0</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="7%" class="">A</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="5%" class=" xemketquahoctap_0_row ">*<input type="hidden" name="h_xemketquahoctap_0[]" id="h_xemketquahoctap_0_0" value="4420~^~2024~^~2~^~12"></td>
+<td width="5%" class="center pointer"><img name="img_detail_xemketquahoctap_0_0" id="img_detail_xemketquahoctap_0_0" title="Chi tiết" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/icondetail.png" onclick="goToDetailList(&quot;xemketquahoctap_0&quot;,0)"></td>
+</tr>
+<tr class="alt">
+<th align="center" width="5%" class="">2</th>
+<td align="left" width="14%" class="">85098</td>
+<td align="left" class="">Giáo dục thể chất (Bóng chuyền)</td>
+<td align="center" width="7%" class="">04</td>
+<td align="center" width="7%" class="">1</td>
+<td align="center" width="7%" class="">5.0</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="7%" class="">C-</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="5%" class=" xemketquahoctap_0_row ">*<input type="hidden" name="h_xemketquahoctap_0[]" id="h_xemketquahoctap_0_1" value="4421~^~2024~^~2~^~04"></td>
+<td width="5%" class="center pointer"><img name="img_detail_xemketquahoctap_0_1" id="img_detail_xemketquahoctap_0_1" title="Chi tiết" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/icondetail.png" onclick="goToDetailList(&quot;xemketquahoctap_0&quot;,1)"></td>
+</tr>
+<tr>
+<th align="center" width="5%" class="">3</th>
+<td align="left" width="14%" class="">ACC321</td>
+<td align="left" class="">Pháp luật về kế toán và kiểm toán</td>
+<td align="center" width="7%" class="">04</td>
+<td align="center" width="7%" class="">2</td>
+<td align="center" width="7%" class="">7.0</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="7%" class="">B</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="5%" class=" xemketquahoctap_0_row ">*<input type="hidden" name="h_xemketquahoctap_0[]" id="h_xemketquahoctap_0_2" value="10867~^~2024~^~2~^~04"></td>
+<td width="5%" class="center pointer"><img name="img_detail_xemketquahoctap_0_2" id="img_detail_xemketquahoctap_0_2" title="Chi tiết" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/icondetail.png" onclick="goToDetailList(&quot;xemketquahoctap_0&quot;,2)"></td>
+</tr>
+<tr class="alt">
+<th align="center" width="5%" class="">4</th>
+<td align="left" width="14%" class="">ACC344</td>
+<td align="left" class="">Kế toán tài chính 1</td>
+<td align="center" width="7%" class="">04</td>
+<td align="center" width="7%" class="">3</td>
+<td align="center" width="7%" class="">6.5</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="7%" class="">C+</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="5%" class=" xemketquahoctap_0_row ">*<input type="hidden" name="h_xemketquahoctap_0[]" id="h_xemketquahoctap_0_3" value="4579~^~2024~^~2~^~04"></td>
+<td width="5%" class="center pointer"><img name="img_detail_xemketquahoctap_0_3" id="img_detail_xemketquahoctap_0_3" title="Chi tiết" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/icondetail.png" onclick="goToDetailList(&quot;xemketquahoctap_0&quot;,3)"></td>
+</tr>
+<tr>
+<th align="center" width="5%" class="">5</th>
+<td align="left" width="14%" class="">ACC391</td>
+<td align="left" class="">Tiếng Anh chuyên ngành 1 (Kế toán)</td>
+<td align="center" width="7%" class="">02</td>
+<td align="center" width="7%" class="">3</td>
+<td align="center" width="7%" class="">6.9</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="7%" class="">C+</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="5%" class=" xemketquahoctap_0_row ">*<input type="hidden" name="h_xemketquahoctap_0[]" id="h_xemketquahoctap_0_4" value="10929~^~2024~^~2~^~02"></td>
+<td width="5%" class="center pointer"><img name="img_detail_xemketquahoctap_0_4" id="img_detail_xemketquahoctap_0_4" title="Chi tiết" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/icondetail.png" onclick="goToDetailList(&quot;xemketquahoctap_0&quot;,4)"></td>
+</tr>
+<tr class="alt">
+<th align="center" width="5%" class="">6</th>
+<td align="left" width="14%" class="">AUD321</td>
+<td align="left" class="">Kế toán quản trị 1</td>
+<td align="center" width="7%" class="">04</td>
+<td align="center" width="7%" class="">3</td>
+<td align="center" width="7%" class="">5.5</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="7%" class="">C</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="5%" class=" xemketquahoctap_0_row ">*
+    <input type="hidden" name="h_xemketquahoctap_0[]" id="h_xemketquahoctap_0_5" value="10868~^~2024~^~2~^~04"></td>
+<td width="5%" class="center pointer"><img name="img_detail_xemketquahoctap_0_5" id="img_detail_xemketquahoctap_0_5" title="Chi tiết" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/icondetail.png" onclick="goToDetailList(&quot;xemketquahoctap_0&quot;,5)"></td>
+</tr>
+<tr>
+<th align="center" width="5%" class="">7</th>
+<td align="left" width="14%" class="">FIB321</td>
+<td align="left" class="">Thị trường chứng khoán</td>
+<td align="center" width="7%" class="">02</td>
+<td align="center" width="7%" class="">2</td>
+<td align="center" width="7%" class="">7.4</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="7%" class="">B</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="5%" class=" xemketquahoctap_0_row ">*<input type="hidden" name="h_xemketquahoctap_0[]" id="h_xemketquahoctap_0_6" value="8772~^~2024~^~2~^~02"></td>
+<td width="5%" class="center pointer"><img name="img_detail_xemketquahoctap_0_6" id="img_detail_xemketquahoctap_0_6" title="Chi tiết" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/icondetail.png" onclick="goToDetailList(&quot;xemketquahoctap_0&quot;,6)"></td>
+</tr>
+<tr class="alt">
+<th align="center" width="5%" class="">8</th>
+<td align="left" width="14%" class="">FIB337</td>
+<td align="left" class="">Thuế</td>
+<td align="center" width="7%" class="">04</td>
+<td align="center" width="7%" class="">3</td>
+<td align="center" width="7%" class="">5.9</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="7%" class="">C</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="5%" class=" xemketquahoctap_0_row ">*
+    <input type="hidden" name="h_xemketquahoctap_0[]" id="h_xemketquahoctap_0_7" value="6023~^~2024~^~2~^~04"></td>
+<td width="5%" class="center pointer"><img name="img_detail_xemketquahoctap_0_7" id="img_detail_xemketquahoctap_0_7" title="Chi tiết" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/icondetail.png" onclick="goToDetailList(&quot;xemketquahoctap_0&quot;,7)"></td>
+</tr>
+<tr>
+<th align="center" width="5%" class="">9</th>
+<td align="left" width="14%" class="">POL308</td>
+<td align="left" class="">Chủ nghĩa xã hội khoa học</td>
+<td align="center" width="7%" class="">08</td>
+<td align="center" width="7%" class="">2</td>
+<td align="center" width="7%" class="">7.8</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="7%" class="">B</td>
+<td align="center" width="7%" class=""></td>
+<td align="center" width="5%" class=" xemketquahoctap_0_row ">*<input type="hidden" name="h_xemketquahoctap_0[]" id="h_xemketquahoctap_0_8" value="10317~^~2024~^~2~^~08"></td>
+<td width="5%" class="center pointer"><img name="img_detail_xemketquahoctap_0_8" id="img_detail_xemketquahoctap_0_8" title="Chi tiết" src="./Kết quả học tập sinh viên __ Quản lý đào tạo - TRƯỜNG ĐẠI HỌC NHA TRANG_files/icondetail.png" onclick="goToDetailList(&quot;xemketquahoctap_0&quot;,8)"></td>
+</tr>
+</tbody></table><table id="fixedtableheader0" style="border-collapse: collapse; position: absolute; top: -352.333px; left: 0px; width: 1229px; display: none;" name="tb_xemketquahoctap_0" width="100%" border="1" class="table-list fixheader"><tbody><tr><th rowspan="2" align="center" style="width: 55.6667px;">Stt</th><th rowspan="2" align="center" style="width: 166.667px;">Mã HP</th><th rowspan="2" align="center" style="width: 350.667px;">Tên học phần</th><th rowspan="2" align="center" style="width: 80.6667px;">Nhóm</th><th rowspan="2" align="center" style="width: 80.6667px;">ĐVHT</th><th colspan="2" align="center" style="width: 166.667px;">Điểm HP hệ 10</th><th colspan="2" align="center" style="width: 166.667px;">Điểm HP hệ 4</th><th rowspan="2" align="center" style="width: 55.6667px;">N</th><th rowspan="2" align="center" style="width: 55.6667px;">Chi tiết</th></tr><tr class="alt"><th align="center" style="width: 80.6667px;">Lần 1</th><th align="center" style="width: 80.6667px;">Lần 2</th><th align="center" style="width: 80.6667px;">Lần 1</th><th align="center" style="width: 80.6667px;">Lần 2</th></tr></tbody></table></div><table id="tb_header" name="tb_header" width="100%" border="0" class="fixheader">
+<tbody><tr>
+<td align="left" width="30%" class="normal">Tổng số tín chỉ học kỳ</td>
+<td align="left" width="20%" class="normal"><b>20.00</b></td>
+<td align="left" width="30%" class="normal">Số tín chỉ tích lũy</td>
+<td align="left" width="20%" class="normal"> <b>62</b></td>
+</tr>
+<tr>
+<td align="left" width="30%" class="normal">Điểm trung bình học kỳ hệ 10</td>
+<td align="left" width="20%" class="normal"><b>6.60</b></td>
+<td align="left" width="30%" class="normal"> Điểm trung bình học kỳ hệ 4</td>
+<td align="left" width="20%" class="normal"> <b>2.50</b></td>
+</tr>
+<tr>
+<td align="left" width="30%" class="normal">Điểm trung bình tích lũy hệ 10</td>
+<td align="left" width="20%" class="normal"><b>7.32</b></td>
+<td align="left" width="30%" class="normal">Điểm trung bình tích lũy hệ 4</td>
+<td align="left" width="20%" class="normal"> <b>2.93</b></td>
+</tr>
+<tr>
+<td align="left" width="30%" class="normal">Điểm rèn luyện</td>
+<td align="left" width="20%" class="normal"><b>0</b></td>
+<td align="left" width="30%" class="normal">Điểm rèn luyện tích lũy</td>
+<td align="left" width="20%" class="normal"> <b>91.33</b></td>
+</tr>
+</tbody></table></fieldset><span class="bold">Ghi chú: </span><br><span class="italic"> - Cột(*): học phần thuộc chương trình đào tạo<br> - Cột(BL): học phần bảo lưu<br> - Cột(TĐ): học phần tương đương</span><input type="hidden" name="sskey" value="1718888061"></form>
+
+<script language="javascript">
+    function xem() {
+        goToAction('frmMain', 'https://sinhvien.ntu.edu.vn/sinhvien/diem/xemketquahoctap');
+    }
+    function print() {
+        newTab('frmMain', 'https://sinhvien.ntu.edu.vn/sinhvien/diem/xemketquahoctap/public_in');
+    }
+    function goToDetailList(name, index) {
+     
+        showLoading();
+        //alert($("#h_" + name + "_" + index).val());
+        $.ajax({
+            type: "POST",
+            url: "https://sinhvien.ntu.edu.vn/sinhvien/diem/xemketquahoctap/public_getDiem_Chi_Tiet",
+            data: 'id=' + $("#h_" + name + "_" + index).val(),
+            dataType: "xml",
+            success: function (xml) {
+                if (!xml) {
+                    alert("Failed to connect.");
+                }
+                $(xml).find('Result').each(function () {
+                    var msg = $(this).find('msg').text();
+                    if (msg == "OK") {
+                        $('#chitiettrangthai').html($(this).find('strtt').text());
+                        //showModal('dlg_chitietdiem');
+                        $('#dlg_chitietdiem').slideDown();
+                    } else {
+                        alert("Không thể lấy thông tin theo yêu cầu.");
+                        $('#loading').hide();
+                        $('#overlay').slideUp();
+                    }
+                });
+                $('#loading').hide();
+            }
+        });
+    }
+</script> 
+                </td>
+            </tr>
+        </tbody></table>
+                    <table id="footer" class="mainbody" width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                <tbody>
+                    <tr>
+                        <td align="center" colspan="2">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size:85%;padding-left: 10px">
+                            Chương trình chạy tốt trên trình duyệt FF 40+, độ phân giải màn hình 1024x768 trở lên
+                        </td>
+                        <td class="copyright" align="right">
+                            Thiết kế 2016-2024 bởi <a class="bold" href="http://www.cuscsoft.com/" target="_blank">CUSC</a> <br>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+                    <div id="overlay">&nbsp;</div>
+        <div id="loading">&nbsp;<div id="loading-text">Vui lòng chờ...</div></div>
+    
+
+<form name="frmKey">
+    <input type="hidden" id="sskey" value="1718888061">
+</form>
+</body></html>

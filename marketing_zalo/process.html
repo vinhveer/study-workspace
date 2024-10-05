@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marketing Zalo (Tools)</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <style>
+        .draggable {
+            cursor: grab;
+        }
+
+        .dragging {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="nav justify-content-center mt-2 nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Thêm số điện thoại</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="message.html">Thêm tin nhắn</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="start.html">Xác nhận thông tin</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active">Thực hiện</a>
+        </li>
+    </ul>
+
+    <div class="container mt-4">
+        <p class="lead" id="status">Đang thực hiện</p>
+    </div>
+
+    <div class="container mt-4">
+        <div class="mb-3">
+            <button id="start" class="d-none btn btn-primary">Bắt đầu</button>
+            <button id="stop" class="d-none btn btn-danger">Dừng</button>
+        </div>
+
+        <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+        <script src="content.js"></script>
+</body>
+
+</html>

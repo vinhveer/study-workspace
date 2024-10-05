@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Open Zalo Chat",
+    "version": "1.0",
+    "description": "Message your many friends with Zalo Chat",
+    "permissions": [
+        "scripting",
+        "tabs",
+        "activeTab",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Open Zalo Chat"
+    },
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*",
+        "https://chat.zalo.me/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://chat.zalo.me/*" 
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}

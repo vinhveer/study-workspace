@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marketing Zalo (Tools)</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <style>
+        .draggable {
+            cursor: grab;
+        }
+
+        .dragging {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="nav justify-content-center mt-2 nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Thêm số điện thoại</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="message.html">Thêm tin nhắn</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="start.html">Xác nhận thông tin</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link">Thực hiện</a>
+        </li>
+    </ul>
+
+    <div class="container mt-4">
+        <h3 class="display-6">Marketing Zalo</h3>
+        <p class="lead">Thiết lập tin nhắn</p>
+    </div>
+
+    <div class="container mt-2">
+        <!-- Nút lưu, xóa và bước tiếp theo -->
+        <button id="clearMessages" class="btn btn-danger">Xóa toàn bộ tin nhắn</button>
+        <button id="openTextMessageModal" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#textMessageModal">Thêm tin nhắn văn bản</button>
+        <button id="openImageMessageModal" class="btn btn-primary" data-bs-toggle="modal"
+            data-bs-target="#imageMessageModal">Thêm tin nhắn hình ảnh</button>
+        <a id="nextStep" class="btn btn-success" href="start.html">Chuyển sang bước tiếp theo</a>
+    </div>
+
+    <div class="container mt-4">
+        <!-- Nút để mở modal thêm tin nhắn -->
+        <table class="table mt-3 table-light align-middle">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Nội dung tin nhắn</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="messageBody">
+                <tr>
+                    <td colspan="3" class="text-center" id="noDataRow">Chưa có dữ liệu</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Modal cho tin nhắn dạng chữ -->
+    <div class="modal fade" id="textMessageModal" tabindex="-1" aria-labelledby="textMessageModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="textMessageModalLabel">Thêm tin nhắn văn bản</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <textarea id="message" class="form-control mb-3" rows="10" placeholder="Nhập tin nhắn"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button id="addTextMessage" class="btn btn-success">Lưu tin nhắn</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal cho tin nhắn dạng hình ảnh -->
+    <div class="modal fade" id="imageMessageModal" tabindex="-1" aria-labelledby="imageMessageModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="imageMessageModalLabel">Thêm tin nhắn hình ảnh</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="file" id="imageMessage" class="form-control mb-3" accept="image/*" />
+                </div>
+                <div class="modal-footer">
+                    <button id="addImageMessage" class="btn btn-success">Lưu tin nhắn</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <script src="message.js"></script>
+</body>
+
+</html>

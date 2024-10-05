@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marketing Zalo (Tools)</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <style>
+        .draggable {
+            cursor: grab;
+        }
+
+        .dragging {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="nav justify-content-center mt-2 nav-tabs" id="navTabs">
+        <li class="nav-item">
+            <a class="nav-link" id="phoneTab" href="index.html">Thêm số điện thoại</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="messageTab" href="message.html">Thêm tin nhắn</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" id="startTab" href="start.html">Xác nhận thông tin</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="processTab">Thực hiện</a>
+        </li>
+    </ul>
+
+    <div class="container mt-4" id="headerContainer">
+        <h3 class="display-6" id="mainHeading">Marketing Zalo</h3>
+        <p class="lead" id="subHeading">Báo cáo trạng thái dữ liệu</p>
+    </div>
+
+    <div class="container mt-3" id="dataContainer">
+        <h6 id="phoneLabel">Số lượng số điện thoại</h6>
+        <p id="count_person"></p>
+        <h6 id="messageLabel">Số lượng tin nhắn</h6>
+        <p id="count_message"></p>
+    </div>
+
+    <div class="container mt-3" id="alertContainer">
+        <div id="successAlert" class="d-none alert alert-success" role="alert">
+            A simple success alert—check it out!
+        </div>
+        <div id="dangerAlert" class="d-none alert alert-danger" role="alert">
+            A simple danger alert—check it out!
+        </div>
+        <a href="process.html" id="startButton" class="d-none btn btn-primary">Bắt đầu</a>
+    </div>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="start.js"></script>
+</body>
+
+</html>

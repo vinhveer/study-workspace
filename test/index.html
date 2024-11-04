@@ -1,51 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebSocket Test</title>
+    <title>Markdown Editor with TinyMCE and Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.tiny.cloud/1/bzixhssib9hsc2y1tl398g63cpns9kadh4sy5n191ld1rcb7/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        body {
+            margin: 20px;
+        }
+        #preview {
+            border: 1px solid #ccc;
+            padding: 10px;
+            background: #f9f9f9;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h1>WebSocket Test</h1>
-    <input type="text" id="messageInput" placeholder="Enter your message">
-    <button onclick="sendMessage()">Send</button>
-    <ul id="messageList"></ul>
 
-    <script>
-        const socket = new WebSocket("ws://localhost:8080/websocket");
+<div class="container">
+    <h1 class="my-4">Trình Soạn Thảo Markdown với TinyMCE</h1>
+    <textarea id="editor"></textarea>
+    <button id="previewButton" class="btn btn-primary my-3">Xem trước</button>
 
-        socket.onopen = function(event) {
-            console.log("WebSocket connection established");
-        };
+    <h2>Xem trước:</h2>
+    <div id="preview"></div>
+</div>
 
-        socket.onmessage = function(event) {
-            console.log("Received message: ", event.data);
-            addMessageToChat(event.data);
-        };
+<script>
+    tinymce.init({
+        selector: '#editor',
+        plugins: 'lists link image preview code',
+        toolbar: 'undo redo | bold italic | alignleft aligncenter alignright | bullist numlist | link image | code',
+        height: 300
+    });
 
-        socket.onclose = function(event) {
-            console.log("WebSocket connection closed");
-        };
+    document.getElementById('previewButton').onclick = function() {
+        tinymce.triggerSave(); // Lưu nội dung vào textarea
+        const htmlContent = document.getElementById('editor').value;
+        document.getElementById('preview').innerHTML = htmlContent;
+        MathJax.typeset();  // Render MathJax sau khi cập nhật nội dung
+    };
+</script>
 
-        socket.onerror = function(event) {
-            console.error("WebSocket error:", event);
-        };
-
-        function sendMessage() {
-            const messageInput = document.getElementById("messageInput");
-            const message = messageInput.value;
-            if (message.trim() !== "") {
-                socket.send(message);
-                messageInput.value = "";
-            }
-        }
-
-        function addMessageToChat(message) {
-            const messageList = document.getElementById("messageList");
-            const li = document.createElement("li");
-            li.textContent = message;
-            messageList.appendChild(li);
-        }
-    </script>
 </body>
 </html>
